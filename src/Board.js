@@ -1,7 +1,7 @@
 import React from 'react';
 import Square from './Square';
 
-function Board (props) {
+const Board = (props) => {
   return (
     <div>
       <div className="board-row">
